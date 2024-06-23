@@ -1,0 +1,144 @@
+.container1 img
+{
+  height: 651px; 
+ width: 100%;
+ display: inline;
+ position: absolute;
+ opacity: 0.9;
+}
+.container1
+{
+  background-color: black;
+  
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  background-image: url(rlsposter.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 621px;
+}
+.title
+{
+  position: relative;
+  top: 300px;
+  left: 480px;
+  font-size: 74px;
+  color: white;
+  font-family: arial;
+  letter-spacing: 25px;
+}
+.Trailerbt
+{  top: 480px;
+  padding: 6px 13px 6px 13px ;
+  left: 550px;
+color: white;
+font-size: 20px;
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  border: solid 1px white;
+  border-radius: 16px;
+  background-color: rgba(7, 7, 7,0.4);
+  opacity: 0.9;
+  position: absolute;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.Trailerbt:hover
+{
+  opacity: 1;
+  background-color: rgba(246, 240, 240,0.4);
+  color: black;
+  border-color: black;
+  
+}
+.navbar {
+  background-color: rgba(6, 5, 5,0.3);
+  overflow: hidden;
+
+  position: relative;
+}
+
+.navbar-brand a {
+  float: left;
+  display: block;
+  color: #f9f6f7;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  letter-spacing: 5px;
+}
+
+.navbar-nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+
+.navbar-nav li {
+  float: left;
+  display: block;
+}
+
+.navbar-nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  border-radius: 6px;
+  transition: all 0.25s;
+}
+
+.navbar-nav li a:hover {
+  text-decoration: underline;
+  text-underline-offset: 40%;
+ font-size: 18px;
+}
+.link
+{ position: relative;
+  width: 10px;
+}
+
+body{
+  margin: 0px;
+  background-color: black;
+}
+@media (max-width: 600px) {
+  .navbar-nav li {
+   display: none;
+  }
+  .navbar-brand a {
+    float: left;
+    display: block;
+    color: #f9f6f7;
+    margin-left: 60px;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    letter-spacing: 5px;
+  }
+  .Trailerbt
+{  top: 480px;
+  padding: 6px 13px 6px 13px ;
+  left: 80px;
+color: white;
+font-size: 12px;
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  border: solid 1px white;
+  border-radius: 16px;
+  background-color: rgba(7, 7, 7,0.4);
+  opacity: 0.9;
+  position: absolute;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+}
